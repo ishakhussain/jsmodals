@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML, CSS and Javascript</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="heading-container">
+        <h1 class="heading">The Fundamentals of Front-end Development</h1>
+      </div>
+
+      <section class="modals">
+        <button class="show-html">HTML</button>
+        <button class="show-css">CSS</button>
+        <button class="show-js">Javascript</button>
+      </section>
+
+      <!-- HTML -->
+      <div class="html hidden-html">
+        <button class="close-modal close-html">&times;</button>
+        <h3>What is <span>HTML?</span></h3>
+        <div class="bullet-container">
+          <ul>
+            <li>
+              HTML stands for <span>H</span>yper <span>T</span>ext
+              <span>M</span>arkup <span>L</span>anguage
+            </li>
+            <li>
+              HTML is the <span>standard markup</span> language for Web pages
+            </li>
+            <li>
+              HTML <span>elements</span> are the building blocks of HTML pages
+            </li>
+            <li>HTML elements are represented by <span>< > tags</span></li>
+          </ul>
+        </div>
+        <button class="learn-more"><a href="https://www.w3schools.com/whatis/whatis_html.asp" target="_blank">Learn more!</a></button>
+      </div>
+
+      <!-- CSS -->
+      <div class="css hidden-css">
+        <button class="close-modal close-css">&times;</button>
+        <h3>What is <span>CSS?</span></h3>
+        <div class="bullet-container">
+          <ul>
+            <li>
+              CSS stands for <span>C</span>ascading <span>S</span>tyle
+              <span>S</span>heets <span>
+            </li>
+            <li>
+              CSS describes <span>how HTML elements are to be displayed</span> on screen, paper, or in other media.
+            </li>
+            <li>
+              CSS saves a lot of work. It can <span>control the layout</span> of multiple web pages all at once.
+            </li>
+            <li>It allows you to set <span>background colours</span> and <span>fonts</span>, and <span>laying out content in multiple columns</span>, as well as a whole lot more!</li>
+          </ul>
+        </div>
+        <button class="learn-more"><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">Learn more!</a></button>
+      </div>
+
+      <!-- Javascript -->
+      <div class="javascript hidden-javascript ">
+        <button class="close-modal close-javascript">&times;</button>
+        <h3>What is <span>Javascript?</span></h3>
+        <div class="bullet-container">
+          <ul>
+            <li>
+              Javascript is the <span>Programming Language</span> for the Web.
+            </li>
+            <li>
+              Javascript can update and change both <span>HTML</span> and <span>CSS.
+            </li>
+            <li>
+              Javascript can <span>calculate, manipulate</span> and <span>validate</span> data.
+            </li>
+            <li>It also enables you to create <span>dynamically updating content, control multimedia, animate images,</span> and pretty much everything else.</li>
+          </ul>
+        </div>
+        <button class="learn-more"><a href="https://www.w3schools.com/whatis/whatis_js.asp" target="_blank">Learn more!</a></button>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
